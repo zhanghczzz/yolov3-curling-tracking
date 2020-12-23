@@ -43,7 +43,7 @@ ${Curling_ROOT}
 ├── models.py           		#yolov3模型
 ├── spilt_video.py         		#视频抽帧切割，用于数据集制作
 ├── train_curling.py      		#训练冰壶检测
-├── xml2yolo.py					#将labelImg标注转为yolo标注
+├── xml2yolo.py                 #将labelImg标注转为yolo标注
 ├── requirements.txt
 ```
 
