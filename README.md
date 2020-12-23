@@ -24,7 +24,7 @@
 
 ##### Project structure
 
-```
+```shell
 ${Curling_ROOT}
 ├── checkpoints         		#预训练冰壶检测权重
 ├── config             			#yolov3模型配置文件
@@ -34,12 +34,12 @@ ${Curling_ROOT}
 ├── utils              			#yolov3一些相关函数
 ├── weights            			#基本yolov3预训练权重
 ├── darknet.py         			#darknet模型
-├── detect.py   				#原基于coco数据集的检测文件，作为示例
+├── detect.py					#原基于coco数据集的检测文件，作为示例
 ├── detect_folder.py   			#文件夹图片检测示例文件，在detect.py基础上使用cv2画图
 ├── detect_single.py   			#基于单张图片的冰壶检测
 ├── detect_webcam.py   			#基于视频的冰壶检测
-├── detect_webcam_deepsort.py 	#基于视频的冰壶检测，并使用deepsort跟踪
-├── detect_webcam_track.py   	#基于视频的冰壶检测，并使用opencv自带跟踪
+├── detect_webcam_deepsort.py   #基于视频的冰壶检测，并使用deepsort跟踪
+├── detect_webcam_track.py      #基于视频的冰壶检测，并使用opencv自带跟踪
 ├── models.py           		#yolov3模型
 ├── spilt_video.py         		#视频抽帧切割，用于数据集制作
 ├── train_curling.py      		#训练冰壶检测
