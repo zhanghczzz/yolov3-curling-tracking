@@ -1,6 +1,6 @@
 # YOLOv3-Curling-Tracking
 
-基于 Yolov3 + Deepsort 实现的冰壶识别与跟踪，Yolov3框架采用https://github.com/eriklindernoren/PyTorch-YOLOv3，数据集视频来自YouTube，手动分割标注。原文：https://zhanghc.site/archives/yolo-curling-track。
+基于 Yolov3 + Deepsort 实现的冰壶识别与跟踪，Yolov3框架采用 https://github.com/eriklindernoren/PyTorch-YOLOv3 ，数据集视频来自YouTube，手动分割标注。原文： https://zhanghc.site/archives/yolo-curling-track 。
 
 ## Installation
 
